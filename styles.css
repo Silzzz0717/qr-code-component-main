@@ -54,3 +54,11 @@ body {
   text-align: center;
   color: var(--colorGrayishblue);
 }
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 400px;
+    padding: 15px;
+    margin: 50px 20px;
+  }
+}
